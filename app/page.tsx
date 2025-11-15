@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
+import HeroSection from './components/sections/HeroSection'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
     >
       <Header />
       <main>
-        <h1 className='mt-10 text-4xl font-bold'>メインの内容</h1>
+        <HeroSection />
       </main>
       <Footer />
     </motion.div>
