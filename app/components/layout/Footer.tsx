@@ -9,7 +9,7 @@ export default function Footer() {
   const socialLinks = [
     { name: 'GitHub', icon: Github, href: '#' },
     { name: 'LinkedIn', icon: Linkedin, href: '#' },
-    { name: 'Email', icon: Mail, href: 'mailto:your.email@example.com' },
+    { name: 'Email', icon: Mail, href: 'mailto:kouhei.basketball7.8@gmail.com' },
   ]
 
   return (
@@ -42,7 +42,7 @@ export default function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full p-3 text-gray-600 transition-all duration-500 hover:bg-orange-50 hover:text-orange-600"
+                className="rounded-full p-3 text-gray-600 transition-all duration-500 hover:bg-teal-50 hover:text-teal-600"
                 aria-label={link.name}
               >
                 <Icon className="h-5 w-5" />

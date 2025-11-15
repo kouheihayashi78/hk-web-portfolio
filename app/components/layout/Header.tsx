@@ -21,7 +21,6 @@ export default function Header() {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Works', href: '#works' },
-    { name: 'Experience', href: '#experience' },
     { name: 'Contact', href: '#contact' },
   ]
 
@@ -73,10 +72,10 @@ export default function Header() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 + index * 0.1 }}
-                className="group relative text-sm font-medium text-gray-600 transition-colors duration-500 hover:text-orange-600"
+                className="group relative text-sm font-medium text-gray-600 transition-colors duration-500 hover:text-teal-600"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-gradient-to-r from-orange-500 to-coral-500 transition-all duration-500 group-hover:w-full" />
+                <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-gradient-to-r from-teal-500 to-cyan-500 transition-all duration-500 group-hover:w-full" />
               </motion.a>
             </li>
           ))}
@@ -88,7 +87,7 @@ export default function Header() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="flex items-center justify-center text-gray-600 transition-colors duration-300 hover:text-orange-600 md:hidden"
+          className="flex items-center justify-center text-gray-600 transition-colors duration-300 hover:text-teal-600 md:hidden"
           aria-label="Toggle menu"
         >
           {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -128,7 +127,7 @@ export default function Header() {
                     >
                       <button
                         onClick={() => handleNavClick(item.href)}
-                        className="block w-full text-left text-lg font-medium text-gray-700 transition-colors duration-300 hover:text-orange-600"
+                        className="block w-full text-left text-lg font-medium text-gray-700 transition-colors duration-300 hover:text-teal-600"
                       >
                         {item.name}
                       </button>
