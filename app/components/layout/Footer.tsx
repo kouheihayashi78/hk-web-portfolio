@@ -1,14 +1,14 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Twitter, Mail } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { name: 'GitHub', icon: Github, href: '#' },
-    { name: 'LinkedIn', icon: Linkedin, href: '#' },
+    { name: 'GitHub', icon: Github, href: 'https://github.com/kouheihayashi78' },
+    { name: 'X', icon: Twitter, href: 'https://x.com/kouhei155048' },
     { name: 'Email', icon: Mail, href: 'mailto:kouhei.basketball7.8@gmail.com' },
   ]
 
