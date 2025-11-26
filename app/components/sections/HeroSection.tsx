@@ -18,7 +18,7 @@ export default function HeroSection() {
       <div className="pointer-events-none absolute right-[5%] top-[70%] h-24 w-24 rounded-full bg-teal-300 opacity-10 blur-2xl" />
       <div className="pointer-events-none absolute bottom-[15%] right-[12%] h-16 w-16 rounded-full bg-green-300 opacity-10 blur-2xl" />
 
-      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center justify-between gap-12 px-6 md:flex-row md:items-start lg:px-8">
+      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between gap-12 px-6 md:flex-row md:items-start lg:px-8">
         {/* Left Side - Catch Message */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

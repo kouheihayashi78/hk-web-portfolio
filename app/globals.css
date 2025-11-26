@@ -16,8 +16,3 @@ body {
   background-color: rgba(0, 171, 174, 0.2);
   color: #1a1a1a;
 }
-
-/* 3D perspective for loading animation */
-.perspective-1000 {
-  perspective: 1000px;
-}
