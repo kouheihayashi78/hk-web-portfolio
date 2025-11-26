@@ -4,6 +4,7 @@ import HeroSection from './components/sections/HeroSection'
 import AboutSection from './components/sections/AboutSection'
 import SkillsSection from './components/sections/SkillsSection'
 import WorksSection from './components/sections/WorksSection'
+import ContactSection from './components/sections/ContactSection'
 import ScrollHelper from './components/ui/ScrollHelper'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <WorksSection />
+        <ContactSection />
       </main>
       <Footer />
       <ScrollHelper />
